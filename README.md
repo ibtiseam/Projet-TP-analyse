@@ -14,8 +14,8 @@ Variante : dans l'algorithme précédent, si on se borne à obtenir une matrice 
 
 
 ## Méthode de Gauss-Seidel : 
-*La méthode de Gauss-Seidel est une méthode itérative de résolution d'un système linéaire (de dimension finie) de la forme {\displaystyle Ax=b}Ax=b, ce qui signifie qu'elle génère une suite qui converge vers une solution de cette équation, lorsque celle-ci en a une et lorsque des conditions de convergence sont satisfaites (par exemple lorsque {\displaystyle A}A est symétrique définie positive). L'algorithme suppose que la diagonale de {\displaystyle A}A est formée d'éléments non nuls.
+* La méthode de Gauss-Seidel est une méthode itérative de résolution d'un système linéaire (de dimension finie) de la forme {\displaystyle Ax=b}Ax=b, ce qui signifie qu'elle génère une suite qui converge vers une solution de cette équation, lorsque celle-ci en a une et lorsque des conditions de convergence sont satisfaites (par exemple lorsque {\displaystyle A}A est symétrique définie positive). L'algorithme suppose que la diagonale de {\displaystyle A}A est formée d'éléments non nuls.
 
-** La méthode se décline en une version « par blocs ».
+ * La méthode se décline en une version « par blocs ».
 
-*** Le principe de la méthode peut s'étendre à la résolution de systèmes d'équations non linéaires et à l'optimisation, mais avec des conditions d'efficacité moins claires. En optimisation, l'utilité de cette approche dépendra beaucoup de la structure du problème. Le principe gauss-seidelien permet aussi d'interpréter d'autres algorithmes.
+* Le principe de la méthode peut s'étendre à la résolution de systèmes d'équations non linéaires et à l'optimisation, mais avec des conditions d'efficacité moins claires. En optimisation, l'utilité de cette approche dépendra beaucoup de la structure du problème. Le principe gauss-seidelien permet aussi d'interpréter d'autres algorithmes.
