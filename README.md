@@ -1,9 +1,39 @@
 # Projet-TP-analyse 
                                 ****Résolution des systémes linéaires***
 
-  * Ce projet represente une tentative pour  faciliter la résolution des systémes linéaires. 
+ 
   
 ![Demo_projet](https://user-images.githubusercontent.com/57879341/103366327-a2c71900-4ac2-11eb-906a-6401b3320965.gif)
+
+# Introduction 
+
+Un système de m équations à n inconnues x1, x2, ...xn s’écrit sous forme matricielle : AX = B où A est une matrice comportant m lignes et n colonnes,
+X est le vecteur colonne dont les composantes sont les xi et B , le second
+membre, est aussi un vecteur colonne avec n composantes.
+Le vecteur X est appelé solution du système.
+
+
+
+# Partie Théorique: 
+
+
+## Résolution par la méthode de Gauss
+Le principe en est le suivant : par des combinaisons linéaires successives, on
+transforme le système initial, que l’on prend tel quel sans changer l’ordre
+des équations, en un système triangulaire supérieur, système ensuite résolu
+en commençant par la dernière des équations transformées.
+On rappelle qu’un système est dit triangulaire supérieur si la matrice associée est triangulaire supérieure.
+Mise en œuvre de la méthode sur le système suivant :
+
+2x1 + x2 + 4x3 = 9 (eq1)
+
+x1 + x3 = 3 (eq2)
+
+6x1 + 4x2 + 2x3 = 6 (eq3)
+
+
+
+
 
 ## Méthodes couvertes
 
