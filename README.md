@@ -36,9 +36,9 @@ En algèbre linéaire, l'élimination de Gauss-Jordan, aussi appelée méthode d
 L'algorithme de Gauss-Jordan produit la matrice échelonnée réduite d'une matrice à l'aide d'opérations élémentaires sur les lignes. 
 Trois types d'opérations élémentaires sont utilisées :
 
-*Échange de deux lignes ;
-*Multiplication d'une ligne par un scalaire non nul ;
-*Ajout du multiple d'une ligne à une autre ligne.
+* Échange de deux lignes 
+* Multiplication d'une ligne par un scalaire non nul 
+* Ajout du multiple d'une ligne à une autre ligne.
 
 L'élimination de Gauss-Jordan peut résoudre un système d'équations AX = B, où A est une matrice n × m de rang r, B est un vecteur fixé, et X le vecteur inconnu. On crée un tableau à n lignes et m + 1 colonnes en bordant la matrice A par le vecteur B. On réduit la matrice sous forme échelonnée réduite.
 
