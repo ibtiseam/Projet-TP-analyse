@@ -18,98 +18,13 @@ Le vecteur X est appelé solution du système.
 
 
 ## Résolution par la méthode de Gauss
-Le principe en est le suivant : par des combinaisons linéaires successives, on
+Le principe en est le suivant : 
+
+par des combinaisons linéaires successives, on
 transforme le système initial, que l’on prend tel quel sans changer l’ordre
 des équations, en un système triangulaire supérieur, système ensuite résolu
 en commençant par la dernière des équations transformées.
 On rappelle qu’un système est dit triangulaire supérieur si la matrice associée est triangulaire supérieure.
-Mise en œuvre de la méthode sur le système suivant :
-
-2x1 + x2 + 4x3 = 9 (eq1)
-
-x1 + x3 = 3 (eq2)
-
-6x1 + 4x2 + 2x3 = 6 (eq3)
-
-Dans la première étape de la méthode, on élimine l’inconnue x1 dans
-les équations (eq2) et (eq3) en les combinant chacune à (eq1), celle-ci,
-servant de ligne pivot, reste inchangée. Cela n’est possible que parce
-que x1 apparaît dans (eq1). Si ce n’est pas le cas, il faut permuter
-(eq1) avec la première des équations suivantes qui contient x1.
-La méthode de Gauss remplace l’équation (eq2) par (eq2) − 1
-2 (eq1) ,
-mais pas (eq2) par 2(eq2) − (eq1), qui éliminerait aussi x1 mais ce qui
-n’est plus Gauss.
-De même, (eq3) est remplacée par (eq3)− 6
-2 (eq1). Après cette première
-étape, on obtient le système équivalent :
-
-2x1 + x2 + 4x3 = 9
-
-−1/2x2 − x3 = −3/2
-
-x2 − 10x3 = −21
-(eq1)
-(eq2
-0
-)
-(eq3
-0
-)
-• Dans la deuxième étape, c’est la deuxième ligne qui joue le rôle de
-ligne pivot si x2 est présent (sinon on permute (eq2
-0
-) avec (eq3
-0
-))
-et, pour éliminer x2 dans la troisième ligne, on remplace celle-ci par
-(eq3
-0
-) − 1
-−1
-2
-(eq2
-0
-) soit (eq3
-0
-) + 2(eq2
-0
-). On obtient alors le système
-équivalent, triangulaire supérieur, suivant :
-
-
-
-2x1 + x2 + 4x3 = 9
-− 1
-2x2 − x3 = −3
-2
-− 12x3 = −24
-(eq1)
-(eq2
-0
-)
-(eq3”)
-• On résout le système par "remontée" en commençant par la dernière
-équation.
-(eq3”) donne x3 = 2 ,
-(eq2
-0
-) donne −1
-2x2 = −3
-2 + x3 = 1
-2 soit x2 = −1
-(eq1) donne 2x1 = 9 − x2 − 4x3 =9+1 − 4 ∗ 2=2 d’où x1 = 1 et la
-solution unique X =
-
-
-1
-−1
-2
-
-.
-Par la suite, les systèmes seront résolus par cette méthode. Pour n
-équations, il y aura n − 1 étapes.
-
 
 
 
