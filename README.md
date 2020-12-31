@@ -14,7 +14,13 @@ l’économie, des sciences de l’ingénieur,...
 Les systèmes linéaires interviennent dans de nombreux contextes d’applications car ils forment
 la base calculatoire de l’algèbre linéaire.
 
-# Définition d'un systèmes linéaire 
+
+
+
+# Partie Théorique: 
+
+
+## Définition d'un système linéaire 
 
 Un système de m équations à n inconnues x1, x2, ...xn s’écrit sous forme matricielle : AX = B où A est une matrice comportant m lignes et n colonnes,
 X est le vecteur colonne dont les composantes sont les xi et B , le second
@@ -22,8 +28,6 @@ membre, est aussi un vecteur colonne avec n composantes.
 Le vecteur X est appelé solution du système.
 
 
-
-# Partie Théorique: 
 
 
 ## Résolution par la méthode de Gauss
