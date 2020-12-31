@@ -39,7 +39,18 @@ des équations, en un système triangulaire supérieur, système ensuite résolu
 en commençant par la dernière des équations transformées.
 On rappelle qu’un système est dit triangulaire supérieur si la matrice associée est triangulaire supérieure.
 
+Élimination de Gauss
+2 étapes :
+1. Transformation du système original
+en un système triangulaire supérieur.
+2. Résolution du système triangulaire
+par substitution arrière.
 
+### Remarques sur la méthode de Gauss
+1. Un pivot est une valeur par laquelle on doit diviser
+ pour résoudre le système linéaire.
+2. On n’a pas utilisé la seconde opération élémentaire.
+3. On peut aussi travailler avec la matrice augmentée.
 
 ## Résolution par la  méthode de Gauss-Jordan
 
@@ -72,5 +83,11 @@ Nous allons réaliser une interface Graphique permettant la résolution des syst
 
 
 Conclustion et perspectives :
+
+Méthode de Gauss Jordan
+* fait disparaître les
+coefficients en haut et en
+bas de la diagonale.
+* Pas de substitution arrière.
 
 Pour terminer, il nous reste à parler d’une chose importante par rapport à la précision de la méthode Gauss-Jordan. Comme vous l’avez constaté, à chaque étape on divise l’équation par un nombre qu’on a appelé pivot. Et comme vous le savez une division est toujours dangereuse si on l’a fait avec un nombre très petit. Ça peut fausser complétement le résultat. Par conséquent, il faut toujours choisir le plus grand coefficient de la ligne comme pivot. Pour cela on peut librement changer l’ordre des équations de façon à placer dans la case pivot le plus grand nombre en valeur absolue. Autre chose, la méthode Gauss-Jordan peut aussi être utilisée pour trouver l’inverse d’une matrice. Pour cela, il suffit de poser la matrice en question côte à côte avec la matrice identité (A|I) et faire les transformations nécessaires pour arriver à (I|A-1). La méthode est stable mais assez sensible aux erreurs de troncatures. Elle est aussi sensiblement plus lente que d’autres méthodes comme la LU décomposition.
