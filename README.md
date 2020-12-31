@@ -78,11 +78,15 @@ Variante : dans l'algorithme précédent, si on se borne à obtenir une matrice 
 
 # Partie Pratique: 
 
-Nous allons réaliser une interface Graphique permettant la résolution des systémes linéaires en se basant sur deux méthodes.
+Nous allons réaliser une interface Graphique permettant la résolution des systémes linéaires en se basant sur les éléments suivants:
+- [PyQt 5](https://www.riverbankcomputing.com/software/pyqt/download5)
+- [Python 3](https://www.python.org)
+- [Qt Designer](doc.qt.io/qt-5/qtdesigner-manual.html)
+- [SymPy](http://www.sympy.org/)
+- ...
 ### QtPy5
 
 C'est un module libre qui permet de lier le langage Python avec la bibliothèque Qt distribué sous deux licences : une commerciale et la GNU GPL. Il permet ainsi de créer des interfaces graphiques en Python. Une extension de Qt Creator (utilitaire graphique de création d'interfaces Qt) permet de générer le code Python d'interfaces graphiques.
-Il s'agit d'un logiciel gratuit de Riverbank Computing et implémente plus de 440 classes et plus de 6000 fonctions et méthodes.
 
 ### QTdesigner 
 
