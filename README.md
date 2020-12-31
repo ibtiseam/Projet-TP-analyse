@@ -7,6 +7,15 @@
 
 # Introduction 
 
+L’algèbre linéaire est un outil essentiel pour toutes les branches des mathématiques appliquées,
+en particulier lorsqu’il s’agit de modéliser puis résoudre numériquement des problèmes issus de
+divers domaines : des sciences physiques ou mécaniques, des sciences du vivant, de la chimie, de
+l’économie, des sciences de l’ingénieur,...
+Les systèmes linéaires interviennent dans de nombreux contextes d’applications car ils forment
+la base calculatoire de l’algèbre linéaire.
+
+# Définition d'un systèmes linéaire 
+
 Un système de m équations à n inconnues x1, x2, ...xn s’écrit sous forme matricielle : AX = B où A est une matrice comportant m lignes et n colonnes,
 X est le vecteur colonne dont les composantes sont les xi et B , le second
 membre, est aussi un vecteur colonne avec n composantes.
